@@ -1,0 +1,39 @@
+.carousel-item img{
+    height: 550px;
+}
+
+.list-group-item a{
+    text-decoration: none;
+    color: rgb(78, 78, 78);
+}
+.list-group-item a:hover{
+    color: rgb(78, 78, 78);
+    cursor: default;
+}
+.list{
+    display: flex;
+    column-gap: 20px;
+}
+.list a{
+    color: blue;
+    text-decoration: underline;
+}
+
+tr a{
+    text-decoration: none;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 768px){
+    .card-group{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        margin-top: 10px;
+    }
+
+    .tt{
+        margin-top: 20px;
+    }
+}
